@@ -70,7 +70,7 @@ const JobPage = () => {
 
                 <h3 className="text-xl">Contact Email:</h3>
 
-                <p className="my-2 bg-indigo-100 p-2 font-bold">
+                <p className="my-2 bg-indigo-100 p-2 font-bold overflow-auto whitespace-normal break-words">
                     {job.company.contactEmail}
                 </p>
 
